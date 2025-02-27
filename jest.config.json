@@ -1,0 +1,11 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "testPathIgnorePatterns": [
+    "/dist/"
+  ],
+  "moduleNameMapper": {
+    "^nvidia_cloud_functions_ts$": "<rootDir>/src/index.ts",
+    "^nvidia_cloud_functions_ts/(.*)$": "<rootDir>/src/$1"
+  }
+}
