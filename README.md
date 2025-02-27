@@ -14,106 +14,102 @@ const client = new Client();
 
 ## Module Documentation and Snippets
 
-### [health](src/resources/health/README.md)
+### [assets](src/resources/assets/README.md)
 
-* [list](src/resources/health/README.md#list) - Get Health Information
+* [create](src/resources/assets/README.md#create) - Create Asset
+* [delete](src/resources/assets/README.md#delete) - Delete Asset
+* [get](src/resources/assets/README.md#get) - Show Asset Details
+* [list](src/resources/assets/README.md#list) - List Assets
 
-### [nvcf.assets](src/resources/nvcf/assets/README.md)
+### [authorizations.functions](src/resources/authorizations/functions/README.md)
 
-* [create](src/resources/nvcf/assets/README.md#create) - Create Asset
-* [delete](src/resources/nvcf/assets/README.md#delete) - Delete Asset
-* [get](src/resources/nvcf/assets/README.md#get) - Show Asset Details
-* [list](src/resources/nvcf/assets/README.md#list) - List Assets
+* [create](src/resources/authorizations/functions/README.md#create) - Authorize Accounts To Invoke Function
+* [delete](src/resources/authorizations/functions/README.md#delete) - Delete All Extra Authorizations For Function
+* [get](src/resources/authorizations/functions/README.md#get) - List Account Authorizations For Function
 
-### [nvcf.authorizations.functions](src/resources/nvcf/authorizations/functions/README.md)
+### [authorizations.functions.add](src/resources/authorizations/functions/add/README.md)
 
-* [create](src/resources/nvcf/authorizations/functions/README.md#create) - Authorize Accounts To Invoke Function
-* [delete](src/resources/nvcf/authorizations/functions/README.md#delete) - Delete All Extra Authorizations For Function
-* [get](src/resources/nvcf/authorizations/functions/README.md#get) - List Account Authorizations For Function
+* [patch](src/resources/authorizations/functions/add/README.md#patch) - Authorize Additional Account To Invoke Function
 
-### [nvcf.authorizations.functions.add](src/resources/nvcf/authorizations/functions/add/README.md)
+### [authorizations.functions.remove](src/resources/authorizations/functions/remove/README.md)
 
-* [patch](src/resources/nvcf/authorizations/functions/add/README.md#patch) - Authorize Additional Account To Invoke Function
+* [patch](src/resources/authorizations/functions/remove/README.md#patch) - Unauthorize Account From Invoking Function
 
-### [nvcf.authorizations.functions.remove](src/resources/nvcf/authorizations/functions/remove/README.md)
+### [authorizations.functions.versions](src/resources/authorizations/functions/versions/README.md)
 
-* [patch](src/resources/nvcf/authorizations/functions/remove/README.md#patch) - Unauthorize Account From Invoking Function
+* [create](src/resources/authorizations/functions/versions/README.md#create) - Authorize Accounts To Invoke Function Version
+* [delete](src/resources/authorizations/functions/versions/README.md#delete) - Delete All Extra Authorizations For Function Version
+* [get](src/resources/authorizations/functions/versions/README.md#get) - Get Account Authorizations For Function Version
 
-### [nvcf.authorizations.functions.versions](src/resources/nvcf/authorizations/functions/versions/README.md)
+### [authorizations.functions.versions.add](src/resources/authorizations/functions/versions/add/README.md)
 
-* [create](src/resources/nvcf/authorizations/functions/versions/README.md#create) - Authorize Accounts To Invoke Function Version
-* [delete](src/resources/nvcf/authorizations/functions/versions/README.md#delete) - Delete All Extra Authorizations For Function Version
-* [get](src/resources/nvcf/authorizations/functions/versions/README.md#get) - Get Account Authorizations For Function Version
+* [patch](src/resources/authorizations/functions/versions/add/README.md#patch) - Authorize Additional Account To Invoke Function Version
 
-### [nvcf.authorizations.functions.versions.add](src/resources/nvcf/authorizations/functions/versions/add/README.md)
+### [authorizations.functions.versions.remove](src/resources/authorizations/functions/versions/remove/README.md)
 
-* [patch](src/resources/nvcf/authorizations/functions/versions/add/README.md#patch) - Authorize Additional Account To Invoke Function Version
+* [patch](src/resources/authorizations/functions/versions/remove/README.md#patch) - Unauthorize Account From Invoking Function Version
 
-### [nvcf.authorizations.functions.versions.remove](src/resources/nvcf/authorizations/functions/versions/remove/README.md)
+### [clusterGroups](src/resources/cluster-groups/README.md)
 
-* [patch](src/resources/nvcf/authorizations/functions/versions/remove/README.md#patch) - Unauthorize Account From Invoking Function Version
+* [list](src/resources/cluster-groups/README.md#list) - List Cluster Groups
 
-### [nvcf.clusterGroups](src/resources/nvcf/cluster-groups/README.md)
+### [deployments.functions.versions](src/resources/deployments/functions/versions/README.md)
 
-* [list](src/resources/nvcf/cluster-groups/README.md#list) - List Cluster Groups
+* [create](src/resources/deployments/functions/versions/README.md#create) - Deploy Function
+* [delete](src/resources/deployments/functions/versions/README.md#delete) - Delete Function Deployment
+* [get](src/resources/deployments/functions/versions/README.md#get) - Get Function Deployment Details
+* [update](src/resources/deployments/functions/versions/README.md#update) - Update Function Deployment
 
-### [nvcf.deployments.functions.versions](src/resources/nvcf/deployments/functions/versions/README.md)
+### [exec.functions](src/resources/exec/functions/README.md)
 
-* [create](src/resources/nvcf/deployments/functions/versions/README.md#create) - Deploy Function
-* [delete](src/resources/nvcf/deployments/functions/versions/README.md#delete) - Delete Function Deployment
-* [get](src/resources/nvcf/deployments/functions/versions/README.md#get) - Get Function Deployment Details
-* [update](src/resources/nvcf/deployments/functions/versions/README.md#update) - Update Function Deployment
+* [create](src/resources/exec/functions/README.md#create) - Call Function
 
-### [nvcf.exec.functions](src/resources/nvcf/exec/functions/README.md)
+### [exec.functions.versions](src/resources/exec/functions/versions/README.md)
 
-* [create](src/resources/nvcf/exec/functions/README.md#create) - Call Function
+* [create](src/resources/exec/functions/versions/README.md#create) - Call Function
 
-### [nvcf.exec.functions.versions](src/resources/nvcf/exec/functions/versions/README.md)
+### [exec.status](src/resources/exec/status/README.md)
 
-* [create](src/resources/nvcf/exec/functions/versions/README.md#create) - Call Function
+* [get](src/resources/exec/status/README.md#get) - Poll For Result Using Function Invocation Request
 
-### [nvcf.exec.status](src/resources/nvcf/exec/status/README.md)
+### [functions](src/resources/functions/README.md)
 
-* [get](src/resources/nvcf/exec/status/README.md#get) - Poll For Result Using Function Invocation Request
+* [create](src/resources/functions/README.md#create) - Create Function
+* [list](src/resources/functions/README.md#list) - List Functions
 
-### [nvcf.functions](src/resources/nvcf/functions/README.md)
+### [functions.ids](src/resources/functions/ids/README.md)
 
-* [create](src/resources/nvcf/functions/README.md#create) - Create Function
-* [list](src/resources/nvcf/functions/README.md#list) - List Functions
+* [list](src/resources/functions/ids/README.md#list) - List Function Ids
 
-### [nvcf.functions.ids](src/resources/nvcf/functions/ids/README.md)
+### [functions.versions](src/resources/functions/versions/README.md)
 
-* [list](src/resources/nvcf/functions/ids/README.md#list) - List Function Ids
+* [create](src/resources/functions/versions/README.md#create) - Create Function Version
+* [delete](src/resources/functions/versions/README.md#delete) - Delete Function
+* [get](src/resources/functions/versions/README.md#get) - Get Function Version Details
+* [list](src/resources/functions/versions/README.md#list) - List Function Versions
 
-### [nvcf.functions.versions](src/resources/nvcf/functions/versions/README.md)
+### [pexec.functions](src/resources/pexec/functions/README.md)
 
-* [create](src/resources/nvcf/functions/versions/README.md#create) - Create Function Version
-* [delete](src/resources/nvcf/functions/versions/README.md#delete) - Delete Function
-* [get](src/resources/nvcf/functions/versions/README.md#get) - Get Function Version Details
-* [list](src/resources/nvcf/functions/versions/README.md#list) - List Function Versions
+* [create](src/resources/pexec/functions/README.md#create) - Call Function
 
-### [nvcf.pexec.functions](src/resources/nvcf/pexec/functions/README.md)
+### [pexec.functions.versions](src/resources/pexec/functions/versions/README.md)
 
-* [create](src/resources/nvcf/pexec/functions/README.md#create) - Call Function
+* [create](src/resources/pexec/functions/versions/README.md#create) - Call Function
 
-### [nvcf.pexec.functions.versions](src/resources/nvcf/pexec/functions/versions/README.md)
+### [pexec.status](src/resources/pexec/status/README.md)
 
-* [create](src/resources/nvcf/pexec/functions/versions/README.md#create) - Call Function
+* [get](src/resources/pexec/status/README.md#get) - Poll For Result Using Function Invocation Request
 
-### [nvcf.pexec.status](src/resources/nvcf/pexec/status/README.md)
+### [queues.functions](src/resources/queues/functions/README.md)
 
-* [get](src/resources/nvcf/pexec/status/README.md#get) - Poll For Result Using Function Invocation Request
+* [get](src/resources/queues/functions/README.md#get) - Queue Details
 
-### [nvcf.queues.functions](src/resources/nvcf/queues/functions/README.md)
+### [queues.functions.versions](src/resources/queues/functions/versions/README.md)
 
-* [get](src/resources/nvcf/queues/functions/README.md#get) - Queue Details
+* [get](src/resources/queues/functions/versions/README.md#get) - Queue Details
 
-### [nvcf.queues.functions.versions](src/resources/nvcf/queues/functions/versions/README.md)
+### [queues.position](src/resources/queues/position/README.md)
 
-* [get](src/resources/nvcf/queues/functions/versions/README.md#get) - Queue Details
-
-### [nvcf.queues.position](src/resources/nvcf/queues/position/README.md)
-
-* [list](src/resources/nvcf/queues/position/README.md#list) - Queue Position
+* [list](src/resources/queues/position/README.md#list) - Queue Position
 
 <!-- MODULE DOCS END -->
